@@ -553,3 +553,164 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+@font-face{
+  font-family :"netflix-font";
+
+  src : url("netflixfont.woff2");
+
+  font-weight:500 ;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.left-9 {
+  left: 2.25rem;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[60px\] {
+  left: 60px;
+}
+
+.left-\[20px\] {
+  left: 20px;
+}
+
+.left-\[10px\] {
+  left: 10px;
+}
+
+.left-\[0px\] {
+  left: 0px;
+}
+
+.left-\[15px\] {
+  left: 15px;
+}
+
+.left-\[5px\] {
+  left: 5px;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[10px\] {
+  height: 10px;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-\[80px\] {
+  height: 80px;
+}
+
+.h-\[0px\] {
+  height: 0px;
+}
+
+.h-\[70px\] {
+  height: 70px;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[55px\] {
+  height: 55px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-clip-padding {
+  background-clip: padding-box;
+}
+
+.font-Netflixlog {
+  font-family: netflix-font;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}

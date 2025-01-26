@@ -7,13 +7,62 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./tailwind.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
   </head>
-  <body>
-  <div id="background"  >
-    <img src="./netflixbg.jpg" alt="netflixbg">
+  <body class="font-Netflixlog font-semibold">
+    <!-- background -->
+    <div class="w-full h-screen  ">
+      <img class="h-screen w-full object-cover" src="./netflixbg.jpg" alt="" />
+      <div
+       class="bg-black w-full h-screen opacity-70 absolute top-0"
+      ></div>
+ </div>
+ <main class="absolute top-0 left-0 w-full h-full">
+  <!-- netflixlogo -->
+ <header class="absolute top-0 left-4">
+  <img class=" h-14" src="./Netflix_Logo_PMS.png" alt="">
+ </header>
+   <!-- making form -->
+<div class="flex justify-center items-center h-full w-full  ">
+  <form action="" class="w-[300px] bg-black p-10 bg-opacity-70 rounded-md flex-col gap-3">
+    <h3 class="text-gray-200 mt-0">Sign in</h3>
+    <!-- input -->
+    <div class="relative mb-6">
+      <input  id="email" class="peer text-sm bg-slate-700 bg-opacity-20  rounded-sm p-3 text-white" type="email" placeholder="">
+    
+    <label 
+    class="peer absolute left-1
+     text-[13px] transition-all
+     scale-100
+      peer-placeholder-shown:top-2
+      peer-placeholder-shown:scale-100
+       peer-placeholder-shown:text-gray-500 
+       peer-focus:top-0
+        peer-focus:scale-75
+       peer-focus:text-xs
+        peer-focus:text-white  
+        pointer-events-none" 
+        for="email">
+        Email</label>
+    <p id="error-email" class="text-red-500 "> </p>
 
-  </div>  
-    <script src="./tailwind.js"></script>
+  </div>
+     <!-- password -->
+    <div class="relative mb-6">
+      <input  class="peer bg-slate-700 text-white text-sm bg-opacity-20 rounded-sm p-3" type="email " placeholder="">
+      <label class="peer absolute left-1 top-0 text-gray-100 text-sm transition-all scale-100  peer-placeholder-shown:top-3 peer-placeholder-shown:scale-100 peer-placeholder-shown:text-gray-500 peer-focus:top-0 peer-focus:scale-75 peer-focus:text-xs peer-focus:text-white  pointer-events-none" for="password">password</label>
+    </div>
+<div>
+<button class="bg-red-600 text-white w-full p-2 hover:text-red-800">Submit</button>
+</div>
+    </form>
+</div>
+
+
+ </main>
+
+    <script src="./tailwind.js" ></script>
   </body>
 </html>
